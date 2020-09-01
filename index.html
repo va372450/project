@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .bgimg{
+    background-image: url(img/james-barr-ULqD07i0l7s-unsplash.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:500px;
+    
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img img{
+    margin-top:70px;
+    margin-bottom: 30px;
+    width:150px;
+    
+}
+.bgimg2{
+    background-image: url(img/scott-webb-U5kQvbQWoG0-unsplash.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height:500px;
+}
+.mission{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    
+
+}
+.newsletter{
+    max-width: 550px;
+    width:100%;
+    position: relative;
+
+}
+.newsletter input{
+    width:100%;
+    padding:10px 50px 10px 30px;
+    border-radius:5px;
+    border:none;
+    font-weight: bold;
+}
+.newsletter .btn{
+    position:absolute;
+    top:50%;
+    right:30px;
+    transform: translateY(-50%);
+    background:15px 20px;
+    border-radius: 2px;
+}
+.newsletter .btn:hover{
+    color:crimson;
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:25px;
+}
+.bottom::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity:0.9;
+    background:url("img/zoltan-tasi-0khu-rgbjzo-unsplash.jpg")no-repeat center center/cover;
+
+}
+.bottom{
+    position: relative;
+}
+
+.navhover ul li a:hover{
+    
+    text-decoration: underline;
+}
+
+    
+   
+</style>
+<body>
+   
+    <div class="navigation ">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
+            <div class="container-fluid bg-light">
+                <a href="" class="navbar-brand logo ml-5 mb-3"><img src="img/vinay.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                    <span class="navbar-toggler-icon "> </span>
+                </button>
+                <div class="collapse navbar-collapse text-center navhover" id="collapsenavbar">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"> <a href="#home" class="nav-link text-dark">About Us</a> </li>
+                        <li class="nav-item"> <a href="#service" class="nav-link text-dark ">Our Treatment</a> </li>
+                        <li class="nav-item"> <a href="#portfolio" class="nav-link text-dark ">Our Fitness</a> </li>
+                        <li class="nav-item"> <a href="#team" class="nav-link  text-dark">Our Experts</a> </li>
+                        <li class="nav-item"> <a href="#about-us" class="nav-link text-dark ">Our Clients</a> </li>
+                        <li class="nav-item"> <a href="#about-us" class="nav-link text-dark ">Media</a> </li>
+                        <li class="nav-item"> <a href="#about-us" class="nav-link text-dark ">Gallery</a> </li>
+                        <li class="nav-item"> <a href="#about-us" class="nav-link text-dark ">Contact Us</a> </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        <div id="gallery" class="container-fluid carousel slide " data-ride="carousel">
+
+
+            <ul class="carousel-indicators">
+              <li data-target="#gallery" data-slide-to="0" class="active"></li>
+              <li data-target="#gallery" data-slide-to="1"></li>
+             
+            </ul>
+          
+    
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg" alt="Los Angeles"width=100%; height=525px;>
+            
+               
+              </div>
+              <div class="  carousel-item">
+                <img src="img/patrick-hendry-w5SgojGZooI-unsplash.jpg" alt="Chicago"width=100%; height=525px;>
+        
+              </div>
+             </div>
+          </div>
+
+          <div class="container-fluid">
+                <div class="bgimg">
+                   
+                </div>
+          </div>
+         <div class="mid">
+             <div class="img">
+                 <img src="img/vinay.png" alt="">
+                 <h1 style="width:400px; margin-bottom: 30px; font-weight:100;">ALL OF US STRIVE NOW WE WILL SOAR</h1>
+                 <P style="width:900px">How is it that champion marathon runners,  swimmers and cyclists finish seconds faster than anyone else? What is it about their bodies other than just the natural function of muscles?</p>
+                 <p style="width:750px">Athlete or not, everybody deserves to function at their optimum potential. So, ask yourself: Is there more that I can do for my body? Can I function more efficiently?</p>
+                 <p style="width:600px">Presenting Functional Manual Therapy, a system of techniques that focuses on function and movement for efficient performance.</p>
+                 <p style="width:230px; margin-bottom: 50px;">Functional Manual Therapy
+                    Your chance to soar.</p>
+             </div>
+         </div>
+         <div class="container-fluid">
+            <div class="bgimg2">
+               
+            </div>
+      </div>
+      <div class="mission">
+          <div class="missiontext">
+              <h1 style="margin-top:70px; margin-bottom: 30px; font-weight: 100;">OUR MISSION</h1>
+              <p style="width:900px; margin-bottom: 50px;">"We inspire people to transcend their physical limitations by transforming their bodies, and in turn their minds, to attain to their unique, highest potential. We achieve this by delivering high quality, physical therapy solutions that focus on efficient movement, thereby improving function and optimising the quality of one's life."</p>
+          </div>
+      </div>
+      <div class="bottom">
+     <div class="wrapper">
+         <h5 style="margin-top:70px; color:white;">Subscribe to our newsletter and receive helpful tips from experts</h5>
+         <div class="newsletter">
+             <input type="text" class="input" placeholder="Enter Your Email">
+             <div class="btn">Subscribe</div>
+         </div>
+     </div>
+     <div class="footer" style="margin-top:80px; display: flex;">
+         <img src="img/logo2.png" alt="" style="margin-left:60px;">
+         <ul class="footernavigation" style="display: flex; margin-left:40px">
+            <li class="nav-item" style="list-style: none;"> <a href="#home" class="nav-link text-light">About Us</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#service" class="nav-link text-light ">Our Treatment</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#portfolio" class="nav-link text-light ">Our Fitness</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#team" class="nav-link  text-light">Our Experts</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#about-us" class="nav-link text-light ">Our Clients</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#about-us" class="nav-link text-light ">Media</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#about-us" class="nav-link text-light ">Gallery</a> </li>
+            <li class="nav-item" style="list-style: none;"> <a href="#about-us" class="nav-link text-light">Contact Us</a> </li>
+            
+            
+            
+        </ul>
+    </div>
+    <div class="policy"">
+</ul>
+<li class="nav-item" style="list-style: none;"> <a href="#" class="nav-link text-light ">Privacy Policy</a> </li>
+
+<li class="nav-item" style="list-style: none;"> <a href="#" class="nav-link text-light ">Terms and Condition</a> </li>
+<ul>
+</div>
+<div class="footertext" style="color:white; text-align: center;padding-bottom: 30px;">
+    <p>Copyright ©2020 Bennett, Coleman & Co. Limited.</p>
+</div>
+    </div>
+</body>
+
+</html>
