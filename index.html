@@ -103,7 +103,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom:25px;
+    
 }
 .bottom::before{
     content: "";
@@ -113,6 +113,7 @@
     z-index: -1;
     opacity:0.9;
     background:url("img/zoltan-tasi-0khu-rgbjzo-unsplash.jpg")no-repeat center center/cover;
+    background-attachment: fixed;
 
 }
 .bottom{
@@ -132,7 +133,7 @@
     <div class="navigation ">
         <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
             <div class="container-fluid bg-light">
-                <a href="" class="navbar-brand logo ml-5 mb-3"><img src="img/vinay.png" alt="" srcset=""></a>
+                <a href="index.html" class="navbar-brand logo ml-4 mb-3"><img src="img/start.jpg" alt="" srcset="" width=250px height=50px></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
                     <span class="navbar-toggler-icon "> </span>
                 </button>
@@ -180,8 +181,8 @@
                    
                 </div>
           </div>
-         <div class="mid">
-             <div class="img">
+         <div class="mid container">
+             <div class="img container">
                  <img src="img/vinay.png" alt="">
                  <h1 style="width:400px; margin-bottom: 30px; font-weight:100;">ALL OF US STRIVE NOW WE WILL SOAR</h1>
                  <P style="width:900px">How is it that champion marathon runners,  swimmers and cyclists finish seconds faster than anyone else? What is it about their bodies other than just the natural function of muscles?</p>
@@ -196,22 +197,22 @@
                
             </div>
       </div>
-      <div class="mission">
-          <div class="missiontext">
+      <div class="mission container">
+          <div class="missiontext container">
               <h1 style="margin-top:70px; margin-bottom: 30px; font-weight: 100;">OUR MISSION</h1>
-              <p style="width:900px; margin-bottom: 50px;">"We inspire people to transcend their physical limitations by transforming their bodies, and in turn their minds, to attain to their unique, highest potential. We achieve this by delivering high quality, physical therapy solutions that focus on efficient movement, thereby improving function and optimising the quality of one's life."</p>
+              <p style=" margin-bottom: 50px;">"We inspire people to transcend their physical limitations by transforming their bodies, and in turn their minds, to attain to their unique, highest potential. We achieve this by delivering high quality, physical therapy solutions that focus on efficient movement, thereby improving function and optimising the quality of one's life."</p>
           </div>
       </div>
       <div class="bottom">
-     <div class="wrapper">
-         <h5 style="margin-top:70px; color:white;">Subscribe to our newsletter and receive helpful tips from experts</h5>
+     <div class="wrapper container-fluid">
+         <h5 style="margin-top:70px; color:white;text-align: center;">Subscribe to our newsletter and receive helpful tips from experts</h5>
          <div class="newsletter">
              <input type="text" class="input" placeholder="Enter Your Email">
              <div class="btn">Subscribe</div>
          </div>
      </div>
      <div class="footer" style="margin-top:80px; display: flex;">
-         <img src="img/logo2.png" alt="" style="margin-left:60px;">
+        <a href="http://127.0.0.1:5500/index.html"> <img src="img/start.jpg" alt="" width=250px height=50px style="margin-left:60px;"></a>
          <ul class="footernavigation" style="display: flex; margin-left:40px">
             <li class="nav-item" style="list-style: none;"> <a href="#home" class="nav-link text-light">About Us</a> </li>
             <li class="nav-item" style="list-style: none;"> <a href="#service" class="nav-link text-light ">Our Treatment</a> </li>
